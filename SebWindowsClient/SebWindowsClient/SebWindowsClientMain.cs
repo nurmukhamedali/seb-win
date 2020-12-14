@@ -281,7 +281,7 @@ namespace SebWindowsClient
                             || manufacturer.Contains("parallels software") 
                             || manufacturer.Contains("xen")
                             || model.Contains("xen")
-                            || model.Contains("virtualbox"))
+                            /*|| model.Contains("virtualbox"))*/
                         {
                             return true;
                         }
